@@ -41,5 +41,7 @@ class SetLocalNode < Struct.new(:name, :value); end
 
 class DefNode < Struct.new(:name, :params, :body); end
 
+class ClassNode < Struct.new(:name, :body); end
+
 class IfNode < Struct.new(:condition, :body); end
 

@@ -1,0 +1,5 @@
+require File.expand_path('../runtime/object', __FILE__)
+require File.expand_path('../runtime/class', __FILE__)
+require File.expand_path('../runtime/context', __FILE__)
+require File.expand_path('../runtime/method', __FILE__)
+require File.expand_path('../runtime/bootstrap', __FILE__)

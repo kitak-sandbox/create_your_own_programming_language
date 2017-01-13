@@ -1,0 +1,3 @@
+m = "This is Awesome!"
+
+print(m)
