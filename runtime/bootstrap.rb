@@ -26,4 +26,7 @@ Constants["Object"].def :print do |receiver, arguments|
     Constants["nil"] # We always want to return objects from our runtime
 end
 
-
+Constants["Number"].def :+ do |receiver, arguments|
+    result = receiver.ruby_value + arguments.first.ruby_value
+    Constants["Number"].new_with_value(result)
+end
